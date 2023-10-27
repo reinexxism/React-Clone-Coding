@@ -15,7 +15,7 @@ export default function Products() {
         setProducts(data);
       });
     return () => {
-      console.log("청소부가 정리합니다.");
+      console.log("청소부가 정리합니다");
     };
   }, [checked]);
 
